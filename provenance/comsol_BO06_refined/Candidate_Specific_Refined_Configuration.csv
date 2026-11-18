@@ -1,0 +1,15 @@
+property,BO06,M201
+Domain elements,40525,45961
+Boundary elements,4688,5024
+Edge elements,420,424
+Solved DOF,267780,303002
+Wavelengths,20; 2.5–5.0 µm,20; 2.5–5.0 µm
+Solver,MUMPS,MUMPS
+Relative tolerance,0.01,0.01
+Port power,1 W,1 W
+Incidence/polarization,Normal / y,Normal / y
+Physical/domain configuration,Common,Common
+Refinement meshes,Candidate specific,Candidate specific
+Mean HgCdTe W,.683195,.661043
+Mean ITO W,.070772,.049714
+Arithmetic J W,.612423,.611329
