@@ -1,0 +1,25 @@
+parameter,recorded_value,evidence,scope
+COMSOL,5.3.1.201,export headers and author confirmation,Campaign record or explicit author statement; see evidence
+incident_power,1 W,author configuration,Campaign record or explicit author statement; see evidence
+incidence_angle,normal,author configuration,Campaign record or explicit author statement; see evidence
+polarization,"E=[0,1,0]",author configuration,Campaign record or explicit author statement; see evidence
+ITO_domain,4,export labels,Campaign record or explicit author statement; see evidence
+HgCdTe_domain,2,export labels,Campaign record or explicit author statement; see evidence
+ITO_expression_n,n_interp(1[1/um]*c_const/freq),author-confirmed saved settings,Campaign record or explicit author statement; see evidence
+ITO_expression_k,k_interp(1[1/um]*c_const/freq),author-confirmed saved settings,Campaign record or explicit author statement; see evidence
+ITO_interpolation,linear / constant extrapolation,author configuration,Campaign record or explicit author statement; see evidence
+HgCdTe_thickness,Not in supplied exports,Frozen model settings required,Campaign record or explicit author statement; see evidence
+HgCdTe_composition_x,Not in supplied exports,Frozen model settings required,Campaign record or explicit author statement; see evidence
+layer_stack_and_thicknesses,M201 total height7 µm; ITO base6 µm; HgCdTe extent/thickness not established,Author-provided saved M201 model record,M201 fine-mesh model only; not imputed to production or BO06
+temperature,Not in supplied exports,Frozen model settings required,Campaign record or explicit author statement; see evidence
+HgCdTe_optical_source,Restricted ARL measurements; prior published experimental/computational framework2019/2020,Author-provided V7 archived configuration record,Common configuration; production/refined settings separated in companion CSVs
+ITO_formal_source,Not in supplied exports,Frozen model settings required,Campaign record or explicit author statement; see evidence
+port_coordinates_reference_planes,Input periodic boundary10; output periodic boundary3; normal y-polarized1W,Author-provided V7 archived configuration record,Common configuration; production/refined settings separated in companion CSVs
+Floquet_pair_IDs,"1,4,7->20,21,22;2,5,8->11,12,13",Author-provided V7 archived configuration record,Common configuration; production/refined settings separated in companion CSVs
+mesh_element_order,Quadratic curl-conforming,Author-provided V7 archived configuration record,Common configuration; production/refined settings separated in companion CSVs
+production_mesh_counts,Geometry dependent; no universal count,Parameterized mesh documented in V7 record,Campaign record or explicit author statement; see evidence
+domain_maximum_sizes,Production maximum L_min/6; L_min2.5µm; minimum0.006µm,Author-provided V7 archived configuration record,Common configuration; production/refined settings separated in companion CSVs
+wavelength_mesh_rule,Not in supplied exports,Frozen model settings required,Campaign record or explicit author statement; see evidence
+solver_type_and_tolerances,Refinement fully coupled MUMPS; relative tolerance0.01,Author-provided V7 archived configuration record,Common configuration; production/refined settings separated in companion CSVs
+literal_R_T_and_integration_operator_names,Not in supplied exports,Frozen model settings required,Campaign record or explicit author statement; see evidence
+all_dissipative_domains,"HgCdTe Domain2 and ITO Domain4; free space Domains1,3",Author-provided V7 archived configuration record,Common configuration; production/refined settings separated in companion CSVs

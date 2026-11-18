@@ -1,0 +1,5 @@
+wavelength_um,dimensionless_interpolation_argument,n_table_reconstruction,k_table_reconstruction,constant_extrapolation,provenance
+2.5,2.5,2.666743,0.399989,True,offline reconstruction; not a COMSOL Global Evaluation export
+3.0,3.0,3.2204588518244566,0.4520060252445784,False,offline reconstruction; not a COMSOL Global Evaluation export
+4.0,4.0,4.557616723136986,0.6942951324637073,False,offline reconstruction; not a COMSOL Global Evaluation export
+5.0,5.0,5.445969,0.954835,True,offline reconstruction; not a COMSOL Global Evaluation export
