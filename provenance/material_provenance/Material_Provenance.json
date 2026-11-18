@@ -1,0 +1,46 @@
+{
+  "filename": "ito.txt",
+  "sha256": "f3540ad056cf660e2a0ed4f94124f39486d8b71e9c8dea75c6861512da61a08e",
+  "column_count": 3,
+  "first_column_unit": "micrometer numerical values",
+  "output_positions": {
+    "1": "refractive_index_n",
+    "2": "extinction_coefficient_k"
+  },
+  "interpolation": "linear",
+  "extrapolation": "constant",
+  "ITO_domain": 4,
+  "HgCdTe_domain": 2,
+  "redistribution": "Optical-constant source bytes excluded; metadata and digest only.",
+  "unit_handling": "Author-confirmed COMSOL expression 1[1/um]*c_const/freq supplies a dimensionless numerical wavelength in micrometers.",
+  "n_expression": "n_interp(1[1/um]*c_const/freq)",
+  "k_expression": "k_interp(1[1/um]*c_const/freq)",
+  "native_range_um": [
+    2.623526293,
+    4.712033503
+  ],
+  "extrapolated_intervals_um": [
+    [
+      2.5,
+      2.623526293
+    ],
+    [
+      4.712033503,
+      5.0
+    ]
+  ],
+  "configuration_evidence": "Author-confirmed direct saved COMSOL model/function-plot inspection; implementation confirmation, not a numerical Global Evaluation export.",
+  "HgCdTe_provenance": {
+    "source_institution": "U.S. Army Research Laboratory",
+    "source_type": "Optical-constant measurements",
+    "evidence": "Author-provided provenance and restriction statement",
+    "redistribution": "Restricted; no raw n,k arrays, source files, or HgCdTe n/k plots are included in the public package.",
+    "access": "Access or redistribution requires authorization from the data owner.",
+    "public_records": "Derived simulation responses and analysis only; do not represent underlying HgCdTe n,k tables.",
+    "historical_record": "data/HgCdTe_Historical_Provenance.csv; historical nominal composition/thickness not substituted for present model metadata"
+  },
+  "M201_saved_model_configuration": "data/M201_FineMesh_Configuration.csv; M201-specific controls retained",
+  "common_production_configuration": "data/COMSOL_Common_Production_Configuration.csv",
+  "candidate_specific_refinement": "data/Candidate_Specific_Refined_Configuration.csv",
+  "ITO_formal_source": "Unrecovered; ACS Nano2011 ITO-nanorod study is background only, not proven origin of ito.txt"
+}
