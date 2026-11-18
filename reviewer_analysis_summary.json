@@ -1,0 +1,22 @@
+{
+  "blind_geometries": 45,
+  "blind_J_MAE": 0.003187628708526776,
+  "blind_J_RMSE": 0.004687499054510494,
+  "blind_J_spearman": 0.8300395256916996,
+  "blind_J_kendall": 0.6606060606060605,
+  "top_decile_k": 5,
+  "top_decile_overlap": 2,
+  "top_decile_precision": 0.4,
+  "blind_J_MAE_bootstrap_95CI": [
+    0.0022534908203520735,
+    0.004255184622616544
+  ],
+  "candidate_duplicate_Main300_geometries": 0,
+  "mean_difference": 0.016003332503129686,
+  "median_difference": 0.015744991045530066,
+  "exact_MW_two_sided_p": 7.39602301050679e-07,
+  "exact_MW_one_sided_exploratory_p": 3.698011505253395e-07,
+  "rank_arithmetic_trapezoidal_spearman": 0.9991304347826085,
+  "top5_overlap": 5,
+  "trapezoidal_best": "BO06"
+}

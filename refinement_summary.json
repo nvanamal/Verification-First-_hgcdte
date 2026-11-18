@@ -1,0 +1,7 @@
+{
+  "same_fine_mesh_spectral_change_percent": 0.4665165713162535,
+  "record_notes": "The 20-point BO06 files are fine-mesh baseline exports; bo06_*.csv contain the 480-row production candidate set. The prior 0.6931% mixed production-mesh and fine-mesh records.",
+  "ito_filename": "ito.txt",
+  "ito_sha256": "f3540ad056cf660e2a0ed4f94124f39486d8b71e9c8dea75c6861512da61a08e",
+  "ito_wavelength_unit": "micrometer numerical values, supplied through author-confirmed 1[1/um]*c_const/freq"
+}

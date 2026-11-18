@@ -1,0 +1,148 @@
+{
+  "qc": {
+    "main_rows": 6000,
+    "main_designs": 300,
+    "candidate_rows": 480,
+    "candidate_designs": 24,
+    "split_counts": {
+      "train": 210,
+      "blind_test": 45,
+      "validation": 45
+    },
+    "changed_phase1_assignments": 141,
+    "main_max_port": 2.220446049250313e-16,
+    "main_max_material": 1.0367054437132595e-13,
+    "candidate_max_port": 2.220446049250313e-16,
+    "candidate_max_material": 4.891226312864205e-14,
+    "duplicates": 0,
+    "missing": 0,
+    "nonfinite": 0,
+    "square_violations": 0,
+    "unmatched": 0,
+    "max_original_manifest_coordinate_difference_um": 1.1102230246251565e-16
+  },
+  "selected_models": {
+    "P_HgCdTe_W": "Extra Trees",
+    "P_ITO_W": "Polynomial Ridge"
+  },
+  "statistics": {
+    "guided_mean": 0.6077519997997732,
+    "random_mean": 0.5917486672966435,
+    "difference": 0.016003332503129686,
+    "relative_percent": 2.704413780302984,
+    "CI": [
+      0.013015044223850034,
+      0.018930750674681616
+    ],
+    "U": 144.0,
+    "p": 1.82922767694855e-05,
+    "cohen_d": 4.139754961216342,
+    "best": "BO06",
+    "best_J": 0.6110771885254435,
+    "best_random": "RS03",
+    "best_main": "M201",
+    "best_main_J": 0.6099833812668839,
+    "original_candidate_MAE": {
+      "guided": {
+        "HgCdTe": 0.0074264399307909686,
+        "ITO": 0.007693489399091809,
+        "J": 0.001570849711316355
+      },
+      "random": {
+        "HgCdTe": 0.002696216904037655,
+        "ITO": 0.002186560887714469,
+        "J": 0.001156759757136192
+      }
+    },
+    "blind_J": {
+      "MAE": 0.0031876287085268263,
+      "RMSE": 0.0046874990545105275,
+      "R2": 0.5270954915189978
+    },
+    "archived_CI": [
+      0.01299867151779658,
+      0.01896927587049323
+    ]
+  },
+  "seed": 2026,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "sklearn": "1.8.0"
+  },
+  "features": [
+    "ito_w_um",
+    "ito_h_um",
+    "cell_w_um",
+    "cell_d_um",
+    "wavelength_um"
+  ],
+  "models": {
+    "P_HgCdTe_W": {
+      "bootstrap": false,
+      "ccp_alpha": 0.0,
+      "criterion": "squared_error",
+      "max_depth": null,
+      "max_features": 1.0,
+      "max_leaf_nodes": null,
+      "max_samples": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "n_estimators": 500,
+      "n_jobs": -1,
+      "oob_score": false,
+      "random_state": 2026,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "P_ITO_W": {
+      "memory": null,
+      "steps": [
+        [
+          "standardscaler",
+          "StandardScaler()"
+        ],
+        [
+          "polynomialfeatures",
+          "PolynomialFeatures(degree=3, include_bias=False)"
+        ],
+        [
+          "ridge",
+          "Ridge()"
+        ]
+      ],
+      "transform_input": null,
+      "verbose": false,
+      "standardscaler": "StandardScaler()",
+      "polynomialfeatures": "PolynomialFeatures(degree=3, include_bias=False)",
+      "ridge": "Ridge()",
+      "standardscaler__copy": true,
+      "standardscaler__with_mean": true,
+      "standardscaler__with_std": true,
+      "polynomialfeatures__degree": 3,
+      "polynomialfeatures__include_bias": false,
+      "polynomialfeatures__interaction_only": false,
+      "polynomialfeatures__order": "C",
+      "ridge__alpha": 1.0,
+      "ridge__copy_X": true,
+      "ridge__fit_intercept": true,
+      "ridge__max_iter": null,
+      "ridge__positive": false,
+      "ridge__random_state": null,
+      "ridge__solver": "auto",
+      "ridge__tol": 0.0001
+    }
+  },
+  "sources": {
+    "Paper2_ITO_24_Candidate_COMSOL_Validation 1.xlsx": "bf44e63190031159334790b081c26e83f6483ca05fb9b8630baaf4733740eb69",
+    "Paper2_ITO_Final_Validation_Analysis.xlsx": "f982d06d61474b660d80c984cfde135d4f3092b331f39edf3ebe661760999672",
+    "Paper2_ITO_Main300_ML_Phase1.xlsx": "30ea3f2eb017d1d8c1398dd9026e946355b9e216568d2c11ea9d4819d26ff5f8"
+  },
+  "refinement_record": "refinement_summary.json",
+  "environment_record": "environment.txt",
+  "material_provenance_record": "Material_Provenance.json"
+}

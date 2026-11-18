@@ -1,0 +1,15 @@
+{
+  "bounds_um": [
+    2.623526293,
+    4.712033503
+  ],
+  "method": "Piecewise-linear spectral interpolation at bounds, normalized trapezoidal integration; existing production-grid responses only",
+  "best_candidate": "BO06",
+  "guided_mean": 0.6610900502326053,
+  "random_mean": 0.6400948644328569,
+  "difference": 0.02099518579974835,
+  "spearman_vs_full_arithmetic": 0.9982608695652172,
+  "spearman_vs_full_trapezoidal": 0.9991304347826085,
+  "all_144_pairs_favor_guided": true,
+  "top_five_overlap": 5
+}
